@@ -1,8 +1,8 @@
 package jp.mzw.java.test.pwdunmask;
 
 import static org.junit.Assert.*;
-
 import jp.mzw.java.test.TestBase;
+
 import org.junit.*;
 import org.openqa.selenium.*;
 
