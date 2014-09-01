@@ -1,13 +1,10 @@
 package jp.mzw.java.test.pwdunmask;
 
-
 import static org.junit.Assert.*;
-import jp.mzw.java.test.TestBase;
 
+import jp.mzw.java.test.TestBase;
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.*;
-import org.openqa.selenium.support.ui.*;
 
 public class TestSetWithdraw extends TestBase {
 
@@ -21,8 +18,6 @@ public class TestSetWithdraw extends TestBase {
 		
 		assertEquals("Your paper was successfully withdrawed.",
 					driver.findElement(By.id("result")).getText());
-		
-		driver.quit();
 	}
 	
 }
